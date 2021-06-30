@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $('.material-card > .mc-btn-action').click(function () {
         var card = $(this).parent('.material-card');
@@ -25,7 +26,7 @@ $(document).ready(function () {
 
             }, 800);
         }
-    });
+})})
 
     const getFreelancers = () => {
         return [
@@ -140,4 +141,5 @@ $(document).ready(function () {
 
 
     majContent()
-});
+
+    
